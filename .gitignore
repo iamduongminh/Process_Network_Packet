@@ -1,0 +1,22 @@
+# Môi trường ảo & Python cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Dữ liệu thô, Lakehouse & Checkpoints
+data/raw/*
+!data/raw/.gitkeep
+data/lakehouse/*
+!data/lakehouse/.gitkeep
+data/checkpoints/*
+!data/checkpoints/.gitkeep
+models/*
+!models/.gitkeep
+
+# File tạm của Spark, Zeek & LibreOffice
+*.crc
+.~lock*
+*.log
+*.pcap
+.DS_Store
