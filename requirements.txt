@@ -1,0 +1,16 @@
+# Core Distributed Processing (Batch & Streaming)
+pyspark>=3.5.0
+
+# Data Manipulation & Evaluation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning & Model Serialization (Phase 2: Analytics)
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Streaming Ingestion (Phase 3: Kafka)
+kafka-python-ng>=2.2.0
+
+# Configuration Management
+pyyaml>=6.0
